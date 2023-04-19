@@ -1,0 +1,103 @@
+body {
+    font-family:'Times New Roman', Times, serif; color: rgba(255, 255, 255, 0.594);
+    margin: 0;
+    padding: 0;
+    background-image: url(wp1859224-the-ninja-h2r-wallpapers.jpg);
+  }
+  
+  #app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 22px;
+  }
+  
+  h1 {
+    font-size: 35px;
+    margin-top: 0;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 0px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(30, 255, 0, 0.854);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  
+  label {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  ul {
+    border-radius: 5px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  li span {
+    flex: 1;
+    font-size: 16px;
+  }
+  
+  li button {
+    background-color:rgba(30, 255, 0, 0.854);
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  #hide-completed {
+    margin-left: 0px;
+    cursor: pointer;
+  }
+  
+  button[type="button"] {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #e74c3c;
+    color: white;
+    cursor: pointer;
+    margin-top: 0px;
+  }
+  .hapus{
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(30, 255, 0, 0.854);
+    color: white;
+    cursor: pointer;
+  }
+  .nama-pemilik{
+    text-align: center;
+  }
